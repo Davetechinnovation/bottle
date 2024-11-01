@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-image: url( background.jpeg);
+    overflow-x: hidden; 
+}
+
+.typewriter {
+    margin: 10px auto; 
+    max-width: 800px; 
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px; 
+    font-family: 'Times New Roman', Times, serif;
+    height: auto;
+}
+
+.typewriter img{
+    width: 799px;
+    height: auto;
+  margin: -20px -20px 0;
+  border-radius: 20px;
+}
+
+.image1{
+    position: relative;
+    font-size: 2.5em;
+}
+
+.small{
+    position: absolute;
+    bottom: 150px;
+    left: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+.small p {
+    color: brown;
+  
+} 
+
+.small h3{
+    font-size: 1.5em;
+    color: green;
+}
+
+.typewriter p {
+    font-size: 1.25em;
+}
+
+.typewriter h2 {
+    color: green;
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 15px 0;
+}
+
+footer{
+    text-align: center;
+    margin: -20px auto;
+    background-color: green;
+    color: white;
+    width: 27.9em;
+    padding: 5px;
+ 
+    font-size: 1.8em;
+}
+
+/*iframe{
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px greenyellow;
+}*/
+
+@media(max-width: 768px) {
+    .typewriter {
+        margin: 10px auto; 
+        padding: 10px; 
+        height: auto;
+        width: 90%;
+        overflow-x: hidden;
+    }
+
+    .typewriter h2 {
+        font-size: 1.1em; 
+    }
+
+    .typewriter p {
+        font-size: 0.5em; 
+    }
+
+    .typewriter img{
+        width: 109%;
+    }
+    
+    footer{
+        text-align: center;
+        margin: -15px auto;
+        background-color: green;
+        color: white;
+        width: 90vw;
+        font-size: 1.1em;
+    }
+    
+    
+    
+}
